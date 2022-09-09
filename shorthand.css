@@ -1,0 +1,34 @@
+/*Shorthand
+É uma junção de propriedades*/
+
+background-color: #000; {}
+background-image: url(images/bg.gif); {}
+background-repeat: no repeat; {}
+background-positiob: left top {}
+
+
+
+/*O Shorthand elimina diversas prorpiedades para uma única linha
+background shorthand*/
+
+background: #000 url(images/bg.gif) no-repeat left top
+
+Ele sobrescreve as linhas anteriores
+
+
+Valores não especificados assumem o valor padrão
+
+*/
+
+#Funções
+*Nome seguido de abre e fecha parênteses
+*Recebe argumentos
+
+##Exemplos
+@import url("http://urlaqui.com/style.css"); {
+    color: rgb(255. 0. 100);
+    width: calc(100%-10px);
+}
+
+
+
